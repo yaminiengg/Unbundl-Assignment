@@ -5,7 +5,7 @@ This project was completed as part of the Unbundl Frontend Developer Assignment.
 
 🔗 Live Demo
 
-👉 Hosted Link: https://app.netlify.com/projects/heartfelt-nasturtium-4e6b6a/overview
+👉 Hosted Link: [https://app.netlify.com/projects/heartfelt-nasturtium-4e6b6a/overview](https://heartfelt-nasturtium-4e6b6a.netlify.app/)
 
 👉 GitHub Repository: https://github.com/yaminiengg/Unbundl-Assignment
 

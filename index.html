@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clove Dental - Landing (Figma Rebuild)</title>
+  <meta name="description" content="Landing page rebuilt from Figma — hero, features, about, testimonials, footer." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <!-- Replace with your logo.svg if you have one -->
+        <img src="images/logo-placeholder.svg" alt="Clove Dental logo" class="brand-logo">
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="#home">Home</a>
+        <a href="#services">Treatments</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone" href="tel:+911234567890">985-6589-510</a>
+        <a class="btn btn-primary" href="#book">Book Appointment</a>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h1 class="hero-title">Expert Root Canal Treatments & Dental Care</h1>
+        <p class="hero-sub">Comfort-first approach with best-in-class specialists across India. Get fast, reliable treatment with certified dentists.</p>
+        <div class="hero-cta">
+          <a href="#book" class="btn btn-primary large">Book a free Consultation</a>
+          <a href="#services" class="btn btn-ghost">See Treatments</a>
+        </div>
+
+        <ul class="trust-row">
+          <li><strong>500+</strong> Clinics</li>
+          <li><strong>1.6 Lakh+</strong> Verified Ratings</li>
+          <li><strong>20</strong> Cities</li>
+        </ul>
+      </div>
+
+
+      <div class="hero-right">
+
+        <!-- appointment card overlay (the right-side form in Figma) -->
+        <aside class="appointment-card" id="book">
+          <h3>Get Expert Dental Guidance</h3>
+          <form id="appointment-form" class="appointment-form">
+            <label>
+              <span>Mobile Number</span>
+              <input type="tel" name="mobile" placeholder="Enter mobile number" required>
+            </label>
+            <label>
+              <span>Captcha</span>
+              <div class="captcha-row">
+                <input type="text" name="captcha" placeholder="Enter code" required>
+                <button type="button" class="captcha-btn">1514</button>
+              </div>
+            </label>
+
+            <label class="consent">
+              <input type="checkbox" checked>
+              I agree to the terms and consent to be contacted.
+            </label>
+
+            <button class="btn btn-primary full" type="submit">Book a Free Consultation</button>
+          </form>
+        </aside>
+      </div>
+       <div class="hero-image-wrap">
+          <img src="images/hero-placeholder.png" alt="Smiling patient" class="hero-image">
+        </div>
+    </div>
+  </section>
+
+  <!-- Services / Features -->
+  <section id="services" class="section section-features">
+    <div class="container">
+      <h2 class="section-title">Types of Root Canal Treatments</h2>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <img src="images/feature-tooth1.png" alt="Root canal treatment" class="feature-img">
+          <h3>Root Canal Treatment</h3>
+          <p>Quick, reliable treatment to save infected teeth using modern techniques and materials.</p>
+          <div class="feature-footer">
+            <div class="price">₹ 12,999</div>
+            <a class="btn btn-secondary" href="#book">Get Consultation</a>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="images/feature-tooth2.png" alt="Re-root treatment" class="feature-img">
+          <h3>Re-Root Canal Treatment</h3>
+          <p>Specialized retreatment for persistent infections or previous failed root canals.</p>
+          <div class="feature-footer">
+            <div class="price">₹ 19,999</div>
+            <a class="btn btn-secondary" href="#book">Get Consultation</a>
+          </div>
+        </article>
+
+        <article class="feature-card long">
+          <h3>Dental Implants & Crowns</h3>
+          <p>Restorative solutions to replace missing teeth and restore function and smile aesthetics.</p>
+          <a class="btn btn-secondary" href="#book">Learn More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section-about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>Real Smiles, Real Transformations</h2>
+        <p>Clove brings experienced dentists and proven clinical protocols to give you predictable results and comfortable care.</p>
+        <ul class="about-list">
+          <li>State-of-the-art clinics</li>
+          <li>Compassionate, trained staff</li>
+          <li>Transparent pricing</li>
+        </ul>
+      </div>
+
+      <div class="about-media">
+        <img src="images/about-placeholder.png" alt="Doctor & patient" class="about-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section section-testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Patients Say</h2>
+
+      <div class="testimonials-grid" id="testimonials-grid">
+        <blockquote class="testimonial">
+          <div class="avatar-wrap"><img src="images/avatar1.png" alt="Neha Singh"></div>
+          <p class="quote">"Very professional and pain-free experience. Highly recommend the team!"</p>
+          <cite class="author">— Parnay Singh</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <div class="avatar-wrap"><img src="images/avatar2.png" alt="Amit Kumar"></div>
+          <p class="quote">"Quick booking and friendly doctors. My root canal was smooth."</p>
+          <cite class="author">— Amit Kumar</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <div class="avatar-wrap"><img src="images/avatar3.png" alt="Saira Banu"></div>
+          <p class="quote">"Experienced dentist and clear communication through the whole process."</p>
+          <cite class="author">— Saira Banu</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ / Accordion simple -->
+  <section id="faq" class="section section-faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="accordion">
+        <details open>
+          <summary>Can I choose the dentist on my own for treatment?</summary>
+          <div class="details-body">Yes — where possible we allow choice based on availability and specialization.</div>
+        </details>
+        <details>
+          <summary>How can I book an appointment?</summary>
+          <div class="details-body">Use the Book button, call our number, or visit your nearest clinic.</div>
+        </details>
+        <details>
+          <summary>How frequently should I visit a dentist?</summary>
+          <div class="details-body">We recommend check-ups every 6–12 months depending on your oral health.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo-placeholder.svg" alt="Clove" class="brand-footer">
+        <p>Clove Dental is India’s leading dental care chain with clinics nationwide.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Treatments</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Call: <a href="tel:+911234567890">+91 12345 67890</a></p>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Clove Dental. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

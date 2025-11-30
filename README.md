@@ -1,11 +1,11 @@
 🚀 Unbundl Frontend Assignment – Responsive Landing Page
 
-A fully responsive landing page built from a Figma design using HTML, CSS, and Vanilla JavaScript.
+A fully responsive landing page built from a Figma design using HTML, CSS, and JavaScript.
 This project was completed as part of the Unbundl Frontend Developer Assignment.
 
 🔗 Live Demo
 
-👉 Hosted Link: Add your GitHub Pages / Netlify / Vercel link here
+👉 Hosted Link: https://app.netlify.com/projects/heartfelt-nasturtium-4e6b6a/overview
 
 👉 GitHub Repository: https://github.com/yaminiengg/Unbundl-Assignment
 
@@ -22,7 +22,7 @@ HTML5
 
 CSS3
 
-Vanilla JavaScript
+JavaScript
 
 Git & GitHub (Version Control)
 
@@ -64,15 +64,6 @@ cd Unbundl-Assignment
 
 Open index.html in any browser.
 
-📸 Screenshots (Add after deployment)
-
-Add your project screenshots here.
-
-Example:
-
-🖥️ Desktop View
-
-📱 Mobile View
 
 🛠️ Deployment Steps (GitHub Pages)
 
